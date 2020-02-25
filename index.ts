@@ -4,7 +4,7 @@ export function maxTriSum(numbers: number[] = []): number {
          .sort((n1, n2) => n2 - n1)
          .slice(0, 3)
          .forEach(n => sum += n);
-     
+
      return sum
 }
 
