@@ -28,3 +28,12 @@ describe('more than three with repeated numbers', () => {
         expect(result).to.equal(9);
     });
 });
+
+
+
+describe('more than three with repeated numbers and negative ones', () => {
+    it('should return the sum of the three biggest non repeated numbers', () => {
+        const result = maxTriSum([-1, -2, 3, -4, 4]);
+        expect(result).to.equal(6);
+    });
+});
