@@ -1,4 +1,4 @@
-#Maximum Triplet Sum Kata
+# Maximum Triplet Sum Kata
 
 ## Task
    Given an array/list [] of n integers , find maximum triplet sum in the array Without duplications .
