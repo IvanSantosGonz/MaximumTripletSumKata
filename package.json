@@ -4,7 +4,7 @@
   "main": "dsit/index.js",
   "scripts": {
     "tsc": "tsc",
-    "test": "mocha -r ts-node/index test.ts"
+    "test": "mocha -r ts-node/register test.ts"
   },
   "keywords": [],
   "author": "",

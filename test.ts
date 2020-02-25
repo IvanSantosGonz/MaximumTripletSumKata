@@ -7,3 +7,10 @@ describe('empty array', () => {
         expect(result).to.equal(0);
     });
 });
+
+describe('three not  repeated numbers', () => {
+    it('should return the sum of them', () => {
+        const result = maxTriSum([1, 2, 3]);
+        expect(result).to.equal(6);
+    });
+});
