@@ -8,9 +8,16 @@ describe('empty array', () => {
     });
 });
 
-describe('three not  repeated numbers', () => {
+describe('three no repeated numbers', () => {
     it('should return the sum of them', () => {
         const result = maxTriSum([1, 2, 3]);
         expect(result).to.equal(6);
+    });
+});
+
+describe('more than three no repeated numbers', () => {
+    it('should return the sum of the three biggest', () => {
+        const result = maxTriSum([1, 2, 3, 4]);
+        expect(result).to.equal(9);
     });
 });
