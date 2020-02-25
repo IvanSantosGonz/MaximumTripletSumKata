@@ -1,0 +1,24 @@
+{
+  "name": "maximum_triplet_sum_kata",
+  "version": "1.0.0",
+  "main": "dsit/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mocha -r ts-node/index test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^7.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2",
+    "chai": "latest"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.9",
+    "@types/mocha": "^7.0.1",
+    "ts-mocha": "^6.0.0"
+  }
+}
